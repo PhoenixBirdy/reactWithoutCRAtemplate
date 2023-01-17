@@ -2,11 +2,12 @@ import React from 'react';
 import heartLove from '../assets/svg/heartlove.svg';
 import kiss from '../assets/jpg/kiss.jpg';
 import diamond from '../assets/png/diamond.png';
+import styles from './App.module.css';
 
 const App = () => {
   return (
     <div>
-      <h1>Hello World!!</h1>
+      <h1 className={styles.header}>Hello World!!</h1>
       <figure>
         <img src={heartLove} alt="hearts"></img>
         <figcaption>SVG image of hearts</figcaption>
